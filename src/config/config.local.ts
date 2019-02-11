@@ -3,11 +3,11 @@ import { IConfigOptions } from "../types";
 let config: IConfigOptions = {
   version: '2.3',
   serve: {
-    port: 8080,
+    port: 8081,
   },
-  keys: ['some secret hurr'],
+  keys: ['qianqianshijierap2'],
   session: {
-    key: 'rap2:sess',
+    key: 'qianqianshijie:rap2:sess',
   },
   db: {
     dialect: 'mysql',
@@ -15,7 +15,7 @@ let config: IConfigOptions = {
     port: 3306,
     username: 'root',
     password: '',
-    database: 'RAP2_DELOS_APP_LOCAL',
+    database: 'rap2_delos_app',
     pool: {
       max: 5,
       min: 0,

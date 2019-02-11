@@ -6,17 +6,17 @@ let config: IConfigOptions =  {
     serve: {
         port: (process.env.EXPOSE_PORT && parseInt(process.env.EXPOSE_PORT)) || 8080,
     },
-    keys: ['some secret hurr'],
+    keys: ['qianqianshijierap2'],
     session: {
-        key: 'rap2:sess',
+        key: 'qianqianshijie:rap2:sess',
     },
     db: {
         dialect: 'mysql',
-        host: process.env.MYSQL_URL || 'localhost',
+        host: process.env.MYSQL_URL || 'rm-uf6jah9153cl6ywgw.mysql.rds.aliyuncs.com',
         port: (process.env.MYSQL_PORT && parseInt(process.env.MYSQL_PORT)) || 3306,
-        username: process.env.MYSQL_USERNAME || 'root',
-        password: process.env.MYSQL_PASSWD || '',
-        database: process.env.MYSQL_SCHEMA || 'rap',
+        username: process.env.MYSQL_USERNAME || 'shanchain',
+        password: process.env.MYSQL_PASSWD || '9876Yuio!',
+        database: process.env.MYSQL_SCHEMA || 'rap2_dellos_app',
         pool: {
             max: 80,
             min: 0,
@@ -26,8 +26,9 @@ let config: IConfigOptions =  {
         logging: false,
     },
     redis: {
-        host: process.env.REDIS_URL || 'localhost',
-        port: (process.env.REDIS_PORT && parseInt(process.env.REDIS_PORT)) || 6379
+        host: process.env.REDIS_URL || 'r-uf6406e0b88f71e4.redis.rds.aliyuncs.com',
+        port: (process.env.REDIS_PORT && parseInt(process.env.REDIS_PORT)) || 6379,
+        password: (process.env.REDIS_PASSWORD && parseInt(process.env.REDIS_PASSWORD)) || '9876Yuio'
     },
     mail: {
       host: 'smtp-mail.outlook.com',

@@ -11,7 +11,7 @@ let config: IConfigOptions = {
   },
   db: {
     dialect: 'mysql',
-    host: 'rm-uf6jah9153cl6ywgw.mysql.rds.aliyuncs.com',
+    host: 'rm-uf6jah9153cl6ywgwo.mysql.rds.aliyuncs.com',
     port: 3306,
     username: 'shanchain',
     password: '9876Yuio!',

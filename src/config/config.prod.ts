@@ -12,7 +12,7 @@ let config: IConfigOptions = {
     },
     db: {
         dialect: 'mysql',
-        host: process.env.MYSQL_URL || 'rm-uf6jah9153cl6ywgw.mysql.rds.aliyuncs.com',
+        host: process.env.MYSQL_URL || 'rm-uf6jah9153cl6ywgwo.mysql.rds.aliyuncs.com',
         port: (process.env.MYSQL_PORT && parseInt(process.env.MYSQL_PORT)) || 3306,
         username: process.env.MYSQL_USERNAME || 'shanchain',
         password: process.env.MYSQL_PASSWD || '9876Yuio!',

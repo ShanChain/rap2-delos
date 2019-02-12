@@ -26,7 +26,7 @@ let config: IConfigOptions = {
         logging: false,
     },
     redis: {
-        host: process.env.REDIS_URL || 'r-uf6406e0b88f71e4.redis.rds.aliyuncs.com',
+        host: process.env.REDIS_URL || '47.100.20.170',
         port: (process.env.REDIS_PORT && parseInt(process.env.REDIS_PORT)) || 6379,
         password: (process.env.REDIS_PASSWORD ) || '9876Yuio'
     },

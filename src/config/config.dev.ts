@@ -11,11 +11,11 @@ let config: IConfigOptions = {
   },
   db: {
     dialect: 'mysql',
-    host: 'localhost',
+    host: 'rm-uf6jah9153cl6ywgw.mysql.rds.aliyuncs.com',
     port: 3306,
-    username: 'root',
-    password: '123456',
-    database: 'rap2_delos_app',
+    username: 'shanchain',
+    password: '9876Yuio!',
+    database: 'rap2_dellos_app',
     pool: {
       max: 5,
       min: 0,
@@ -24,7 +24,9 @@ let config: IConfigOptions = {
     logging: false,
   },
   redis: {
-
+      host: 'r-uf6406e0b88f71e4.redis.rds.aliyuncs.com',
+      port: 6379,
+      password: '9876Yuio'
   },
   mail: {
     host: 'smtp-mail.outlook.com',
